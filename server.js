@@ -2088,7 +2088,7 @@ const pizzas = [
       "name": "Chocolate Eclair",
       "description": "",
       "category": null,
-      "price": "AED 8",
+      "price": "8.00 AED",
       "restaurant": "Dunkin Dubai",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__97.png"
   },
@@ -2097,7 +2097,7 @@ const pizzas = [
       "name": "Vanilla All",
       "description": "",
       "category": "Pastry",
-      "price": "AED 7",
+      "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__98.png"
   },
@@ -2106,7 +2106,7 @@ const pizzas = [
       "name": "Choco Wacko Donut",
       "description": "Choco Wacko Donut",
       "category": "Donut",
-      "price": "AED 7",
+      "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__99.png"
   },
@@ -2115,7 +2115,7 @@ const pizzas = [
       "name": "Cookies & Cream Made with Oreo",
       "description": "",
       "category": "Donut",
-      "price": "AED 8",
+      "price": "8.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__100.png"
   },
@@ -2124,7 +2124,7 @@ const pizzas = [
       "name": "Choco Butternut Donut",
       "description": "",
       "category": "Donut",
-      "price": "AED 8",
+      "price": "8.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__101.png"
   },
@@ -2133,7 +2133,7 @@ const pizzas = [
       "name": "Chicken Tikka Sourdough",
       "description": "Enjoy the bold flavors of our freshly made Chicken Tikka Sourdough Sandwich with juicy chicken tikka, creamy mayonnaise, zesty sriracha, and melted cheese.",
       "category": "Sandwich",
-      "price": "AED 23",
+      "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__102.png"
   },
@@ -2142,7 +2142,7 @@ const pizzas = [
       "name": "Spicy Cheese Sandwich",
       "description": "Paneer Tikka Sourdough Sandwich with creamy mayonnaise, spicy sriracha, and gooey cheese.",
       "category": "Sandwich",
-      "price": "AED 23",
+      "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__103.png"
   },
@@ -2151,7 +2151,7 @@ const pizzas = [
       "name": "Egg Sandwich",
       "description": "Egg sandwich with your choice of sauce and optional cheese.",
       "category": "Sandwich",
-      "price": "AED 14",
+      "price": "14.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__104.png"
   },
@@ -2160,7 +2160,7 @@ const pizzas = [
       "name": "Double Egg Bagel",
       "description": "",
       "category": "Bagel",
-      "price": "AED 18",
+      "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__105.png"
   },
@@ -2169,7 +2169,7 @@ const pizzas = [
       "name": "Cream Cheese Bagel",
       "description": "Bagel with cream cheese filling.",
       "category": "Bagel",
-      "price": "AED 14",
+      "price": "14.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__106.png"
   },
@@ -2178,7 +2178,7 @@ const pizzas = [
       "name": "Cheese Croissant",
       "description": "Cheese in a flaky buttery croissant.",
       "category": "Pastry",
-      "price": "AED 16",
+      "price": "16.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__107.png"
   },
@@ -2187,7 +2187,7 @@ const pizzas = [
       "name": "Double Egg Croissant",
       "description": "",
       "category": "Pastry",
-      "price": "AED 18",
+      "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__108.png"
   },
@@ -2196,7 +2196,7 @@ const pizzas = [
       "name": "Turkey & Cheese Sourdough",
       "description": "",
       "category": "Sandwich",
-      "price": "AED 21",
+      "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__109.png"
   },
@@ -2205,7 +2205,7 @@ const pizzas = [
       "name": "Double Egg Potato Bun Sandwich",
       "description": "Choice of double egg sandwich with your choice of sauce and optional cheese.",
       "category": "Sandwich",
-      "price": "AED 18",
+      "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__110.png"
   },
@@ -2214,7 +2214,7 @@ const pizzas = [
       "name": "Egg Croissant",
       "description": "",
       "category": "Pastry",
-      "price": "AED 14",
+      "price": "14.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__111.png"
   },
@@ -2223,7 +2223,7 @@ const pizzas = [
       "name": "Turkey and Cheese Croissant",
       "description": "Turkey and cheese in a flaky buttery croissant.",
       "category": "Pastry",
-      "price": "AED 18",
+      "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__112.png"
   },
@@ -2232,7 +2232,7 @@ const pizzas = [
       "name": "Plain Croissant",
       "description": "Made with layers of flaky and buttery pastry dough.",
       "category": "Pastry",
-      "price": "AED 11",
+      "price": "11.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__113.png"
   },
@@ -2241,7 +2241,7 @@ const pizzas = [
       "name": "Sandwiches",
       "description": "Chicken Caesar Wrap",
       "category": "Sandwich",
-      "price": "AED 24",
+      "price": "24.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__114.png"
   },
@@ -2250,7 +2250,7 @@ const pizzas = [
       "name": "Halloumi & Avocado Muffin",
       "description": "",
       "category": "Muffin",
-      "price": "AED 24",
+      "price": "24.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__115.png"
   },
@@ -2259,7 +2259,7 @@ const pizzas = [
       "name": "Cheese Toastie",
       "description": "",
       "category": "Toast",
-      "price": "AED 24",
+      "price": "24.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__116.png"
   },
@@ -2268,7 +2268,7 @@ const pizzas = [
       "name": "Grilled Chicken Pesto",
       "description": "",
       "category": "Sandwich",
-      "price": "AED 24",
+      "price": "24.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__117.png"
   },
@@ -2277,7 +2277,7 @@ const pizzas = [
       "name": "Roasted Beef",
       "description": "",
       "category": "Sandwich",
-      "price": "AED 24",
+      "price": "24.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__118.png"
   },
@@ -2286,7 +2286,7 @@ const pizzas = [
       "name": "Tuna Melt",
       "description": "",
       "category": "Sandwich",
-      "price": "AED 24",
+      "price": "24.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__119.png"
   },
@@ -2295,7 +2295,7 @@ const pizzas = [
       "name": "Bakery",
       "description": "Walnut Brownies made with walnuts, dense, fudgy, and with a chewy texture. The walnuts add a nutty flavor and crunch.",
       "category": "Bakery",
-      "price": "AED 10",
+      "price": "10.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__120.png"
   },
@@ -2304,7 +2304,7 @@ const pizzas = [
       "name": "Chocolate Muffins with Filling",
       "description": "Mixed with chocolate chips and filled with chocolate sauce.",
       "category": "Muffin",
-      "price": "AED 13",
+      "price": "13.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__121.png"
   },
@@ -2313,7 +2313,7 @@ const pizzas = [
       "name": "Blueberry Muffins with Filling",
       "description": "",
       "category": "Muffin",
-      "price": "AED 13",
+      "price": "13.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__122.png"
   },
@@ -2322,7 +2322,7 @@ const pizzas = [
       "name": "Brew At Home",
       "description": "Dunkin Espresso Capsules - Signature Blend (10 Capsules). Smooth and flavorful medium-dark roast espresso.",
       "category": "Beverage Capsules",
-      "price": "AED 21.50",
+      "price": "21.50 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__123.png"
   },
@@ -2331,7 +2331,7 @@ const pizzas = [
       "name": "Dunkin Espresso Capsules - Light Roast (10 Capsules)",
       "description": "Bright and balanced taste. Recommended anytime of the day.",
       "category": "Beverage Capsules",
-      "price": "AED 21.50",
+      "price": "21.50 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__124.png"
   },
@@ -2340,7 +2340,7 @@ const pizzas = [
       "name": "Dunkin Espresso Capsules - Bold Roast (10 Capsules)",
       "description": "A deliciously smooth dark-roasted espresso with a robust finish.",
       "category": "Beverage Capsules",
-      "price": "AED 21.50",
+      "price": "21.50 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__125.png"
   },
@@ -2349,7 +2349,7 @@ const pizzas = [
       "name": "Hazelnut (Ground)",
       "description": "100% Arabica Coffee.",
       "category": "Beverages Capsules",
-      "price": "AED 51",
+      "price": "51.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__126.png"
   },
@@ -2358,7 +2358,7 @@ const pizzas = [
       "name": "Original Blend (Whole Bean)",
       "description": "100% Arabica Coffee.",
       "category": "Beverages Capsules",
-      "price": "AED 51",
+      "price": "51.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__127.png"
   },
@@ -2367,7 +2367,7 @@ const pizzas = [
       "name": "Dark Roast Ground",
       "description": "100% Arabica Coffee.",
       "category": "Beverages Capsules",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__128.png"
   },
@@ -2376,7 +2376,7 @@ const pizzas = [
       "name": "Original Blend (Ground)",
       "description": "100% Arabica Coffee.",
       "category": "Beverages Capsules",
-      "price": "AED 51",
+      "price": "51.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__129.png"
   },
@@ -2385,7 +2385,7 @@ const pizzas = [
       "name": "Other Beverages",
       "description": "Water",
       "category": "Water",
-      "price": "AED 6",
+      "price": "6.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__130.png"
   },
@@ -2394,7 +2394,7 @@ const pizzas = [
       "name": "BLU - Sparkling Water",
       "description": "",
       "category": "Beverages",
-      "price": "AED 8",
+      "price": "8.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__131.png"
   },
@@ -2403,7 +2403,7 @@ const pizzas = [
       "name": "Fresh Orange Juice",
       "description": "",
       "category": "Cold Beverages",
-      "price": "AED 13",
+      "price": "13.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__132.png"
   },
@@ -2412,7 +2412,7 @@ const pizzas = [
       "name": "Coke",
       "description": "",
       "category": "Cold Beverages",
-      "price": "AED 7",
+      "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__133.png"
   },
@@ -2421,7 +2421,7 @@ const pizzas = [
       "name": "Sprite",
       "description": "",
       "category": "Cold Beverages",
-      "price": "AED 7",
+      "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__134.png"
   },
@@ -2430,7 +2430,7 @@ const pizzas = [
       "name": "Fanta",
       "description": "",
       "category": "Cold Beverages",
-      "price": "AED 7",
+      "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__135.png"
   },
@@ -2439,7 +2439,7 @@ const pizzas = [
       "name": "Diet Coke",
       "description": "",
       "category": "Cold Beverages",
-      "price": "AED 7",
+      "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__136.png"
   },
@@ -2448,7 +2448,7 @@ const pizzas = [
       "name": "Red Bull",
       "description": "",
       "category": "Cold Beverages",
-      "price": "AED 17",
+      "price": "17.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__137.png"
   },
@@ -2457,7 +2457,7 @@ const pizzas = [
       "name": "Red Bull - Sugar Free",
       "description": "",
       "category": "Cold Beverages",
-      "price": "AED 17",
+      "price": "17.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__138.png"
   },
@@ -2466,7 +2466,7 @@ const pizzas = [
       "name": "Red Bull - Red Edition",
       "description": "",
       "category": "Cold Beverages",
-      "price": "AED 17",
+      "price": "17.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__139.png"
   },
@@ -2475,7 +2475,7 @@ const pizzas = [
       "name": "Stainless Thermos Bottle White 500ML",
       "description": "",
       "category": "Bottle Merchandise",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__140.png"
   },
@@ -2484,7 +2484,7 @@ const pizzas = [
       "name": "Stainless Thermos Bottle Pink 500ML",
       "description": "",
       "category": "Bottle Merchandise",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__141.png"
   },
@@ -2493,7 +2493,7 @@ const pizzas = [
       "name": "Stainless Thermos Bottle Gold 500ML",
       "description": "",
       "category": "Bottle Merchandise",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__142.png"
   },
@@ -2502,7 +2502,7 @@ const pizzas = [
       "name": "Stainless Thermos Bottle Orange 500ML",
       "description": "",
       "category": "Bottle Merchandise",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__143.png"
   },
@@ -2511,7 +2511,7 @@ const pizzas = [
       "name": "Double Walled Water Bottle White 500ML",
       "description": "",
       "category": "Bottle Merchandise",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__144.png"
   },
@@ -2520,7 +2520,7 @@ const pizzas = [
       "name": "Double Walled Water Bottle Pink 500ML",
       "description": "",
       "category": "Bottle Merchandise",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__145.png"
   },
@@ -2529,7 +2529,7 @@ const pizzas = [
       "name": "Double Walled Water Bottle Gold 500ML",
       "description": "",
       "category": "Bottle Merchandise",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__146.png"
   },
@@ -2538,7 +2538,7 @@ const pizzas = [
       "name": "Double Walled Water Bottle Orange 500ML",
       "description": "",
       "category": "Bottle Merchandise",
-      "price": "AED 61",
+      "price": "61.00 AED",
       "restaurant": "Dunkin Donut",
       "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__143.png"
   },
