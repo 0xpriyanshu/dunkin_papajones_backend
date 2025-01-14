@@ -2546,7 +2546,7 @@ const pizzas = [
 
 const categoryRoles = {
     main: ['pizza', 'burger', 'combo', 'pasta'],
-    beverage: ['beverage', 'drink', 'soda', 'juice', 'water'],
+    beverage: ['beverage','Cold beverage','Hot beverage', 'drink', 'soda', 'juice', 'water'],
     sideOrDessert: ['side', 'dessert', 'appetizer', 'snack', 'sweet']
 };
 
