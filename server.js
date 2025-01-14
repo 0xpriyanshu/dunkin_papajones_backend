@@ -2544,20 +2544,80 @@ const pizzas = [
   },
 ]
 
+// Example: We re-use your category roles if needed:
 const categoryRoles = {
     main: ['pizza', 'burger', 'combo', 'pasta'],
-    beverage: ['beverage','Cold beverage','Hot beverage', 'drink', 'soda', 'juice', 'water'],
+    beverage: ['beverage','cold beverage','hot beverage', 'drink', 'soda', 'juice', 'water'],
     sideOrDessert: ['side', 'dessert', 'appetizer', 'snack', 'sweet']
-};
+  };
+  
+  /**
+   * Auto-correct recommendation so that all items come from a single restaurant.
+   *
+   * @param {number[]} recommendationIds - The item IDs the LLM recommended
+   * @param {Array} menu - The full menu array
+   * @returns {Array} - The final set of 3 validated items from one restaurant
+   */
+  const validateRecommendations = (recommendationIds, menu) => {
+    // Convert IDs -> actual menu items
+    let validItems = recommendationIds.map(id => menu.find(m => m.id === id));
+  
+    // If any ID didn't match, throw
+    if (validItems.some(item => !item)) {
+      throw new Error('Invalid item ID in recommendations.');
+    }
+  
+    // Identify the "anchor" restaurant
+    // Option 1: The first item in the list
+    const anchorRestaurant = validItems[0].restaurant;
+  
+    // Filter out items not from that restaurant
+    validItems = validItems.filter(item => item.restaurant === anchorRestaurant);
+  
+    // If we ended up with fewer than 3 items, we try to fill from the same restaurant
+    if (validItems.length < 3) {
+      const needed = 3 - validItems.length;
+      const sameRestMenu = menu.filter(m => m.restaurant === anchorRestaurant);
+  
+      // Exclude items we already have
+      const chosenIds = validItems.map(vi => vi.id);
+      const candidates = sameRestMenu.filter(m => !chosenIds.includes(m.id));
+  
+      // If not enough items to fill up to 3, throw
+      if (candidates.length < needed) {
+        throw new Error(`Not enough items in ${anchorRestaurant} to form a 3-item bundle.`);
+      }
+      // Add only as many as needed
+      validItems = [...validItems, ...candidates.slice(0, needed)];
+    }
+  
+    // Now we should have exactly 3 items
+    if (validItems.length !== 3) {
+      throw new Error('Must have exactly 3 items in the bundle.');
+    }
+  
+    // Price range check
+    const totalPrice = validItems.reduce((sum, item) => sum + parseFloat(item.price), 0);
+    if (totalPrice < 20 || totalPrice > 200) {
+      throw new Error(`Total price out of range (20-200). Actual: ${totalPrice.toFixed(2)}`);
+    }
+  
+    // Exclude certain restaurants
+    if (validItems.some(item => /Papa John's|Dunkin'? Donuts/i.test(item.restaurant))) {
+      // If you prefer to throw an error or handle it differently:
+      throw new Error('Excluded restaurant in recommendations.');
+    }
+  
+    // Return the final corrected items
+    return validItems;
+  };
 
-// Helper function to categorize items
 const categorizeItems = (resolvedItems) => {
     const categories = {
         main: null,
         beverage: null,
         sideOrDessert: null,
     };
-
     resolvedItems.forEach(item => {
         const itemCategory = item.category.toLowerCase();
         if (categoryRoles.main.includes(itemCategory) && !categories.main) {
@@ -2568,167 +2628,83 @@ const categorizeItems = (resolvedItems) => {
             categories.sideOrDessert = item;
         }
     });
-
     return categories;
 };
 
-// Helper: Validate recommendations
-const validateRecommendations = (recommendations, pizzas) => {
-    const validItems = recommendations.map(itemId => pizzas.find(pizza => pizza.id === itemId));
-
-    if (validItems.some(item => !item)) {
-        throw new Error('Invalid item ID in recommendations.');
-    }
-
-    const restaurants = validItems.map(item => item.restaurant);
-    if (new Set(restaurants).size > 1) {
-        throw new Error('Recommendations contain items from multiple restaurants.');
-    }
-
-    const totalPrice = validItems.reduce((sum, item) => sum + parseFloat(item.price), 0);
-    if (totalPrice < 20 || totalPrice > 200) {
-        throw new Error('Total price of recommendations is out of range (20-100 AED).');
-    }
-
-    return validItems;
+const restrictToMenu = (recommendationIds, menu) => {
+    return recommendationIds.every(itemId => menu.some(m => m.id === itemId));
 };
 
-// Helper: Filter available menu items
-const filterAvailableItems = (recommendations, pizzas) => {
-    return recommendations.filter(itemId => pizzas.some(pizza => pizza.id === itemId));
-};
-
-// Helper: Restrict recommendations to available menu items
-const restrictToMenu = (recommendations, menu) => {
-    return recommendations.every(itemId => menu.some(menuItem => menuItem.id === itemId));
-};
-
-// API: Pizza Recommendations
-app.post('/api/pizza-recommendations', async (req, res) => {
+// The unified chat and recommendation endpoint
+app.post('/api/unified-chat', async (req, res) => {
     try {
         const userId = req.body.userId || 'default';
         const userQuery = req.body.query || '';
         console.log(`User Query Received: ${userQuery}`);
-        console.log(`Current Session Memory: ${JSON.stringify(sessionMemory, null, 2)}`);
 
-        // Initialize session memory for the user
+        // Initialize session memory if needed
         if (!sessionMemory[userId]) {
-            console.log(`Initializing new session for User ID: ${userId}`);
             sessionMemory[userId] = { lastRecommendation: null, chatHistory: [] };
         }
-
         const userSession = sessionMemory[userId];
         userSession.chatHistory.push(userQuery);
 
-        // Prepare system prompt
+        // Info about last recommendation
         const lastRecommendation = userSession.lastRecommendation || [];
         const resolvedItems = lastRecommendation.map(itemId => pizzas.find(pizza => pizza.id === itemId));
         const categorizedItems = categorizeItems(resolvedItems);
 
-        let systemPrompt;
+        // Unified system prompt
+        // We'll ask the LLM to decide: 
+        //  - If the user wants or modifies a bundle => respond with valid JSON
+        //  - Otherwise => respond with plain text
+        const systemPrompt = `
+You are a SINGLE-ENDPOINT assistant handling both general chat and food recommendations.
 
-        if (userSession.lastRecommendation && /change|add|remove/i.test(userQuery)) {
-            systemPrompt = `
-            You are a charismatic Food Recommendation Assistant with memory of the last recommendation:
-- Last Recommendation: ${JSON.stringify(lastRecommendation)}
-- Main Item: ${categorizedItems.main ? JSON.stringify(categorizedItems.main) : 'None'}
-- Beverage: ${categorizedItems.beverage ? JSON.stringify(categorizedItems.beverage) : 'None'}
-- Side/Dessert: ${categorizedItems.sideOrDessert ? JSON.stringify(categorizedItems.sideOrDessert) : 'None'}
+1) If the user wants a NEW or MODIFIED recommendation (e.g. "I want a pizza combo", "change the drink"), 
+   you MUST respond with VALID JSON. The format must be:
+   {
+     "recommendations": [array_of_item_ids],
+     "explanation": "Short explanation"
+   }
+   - 3 items total: 1 main, 1 beverage, 1 side/dessert
+   - Must be from the same restaurant
+   - Price range 50-100 AED (for your real logic, adapt as needed)
+   - Exclude Papa John's, Dunkin' Donuts
+   - If user says "I don't like this drink," interpret as a request to change the beverage.
 
-The user wants to modify the recommendation based on this input: "${userQuery}".
-IMPORTANT: All recommended items must come from the same restaurant. Violating this rule will result in rejection of the recommendations.
-BUNDLE COMPOSITION RULES:
-1. Each bundle must contain exactly 3 items total:
-   - 1 main item (pizza, burger, pasta, etc.)
-   - 1 beverage (required)
-   - 1 additional item (dessert/side/appetizer)
+2) If the user is JUST CHATTING (no request for a new/modified recommendation),
+   respond with normal text. DO NOT produce JSON in that case.
 
-CONSTRAINTS:
-- Price: 50-100 AED total.
-- All items from the same restaurant.
-- Excluded: Papa John's, Dunkin' Donuts.
-- Drinks must match weather context.
-- NO REPETITIVE RECOMMENDATIONS.
-- Restrict items to the available menu.
+Important details about the current session:
+- Last recommendation: ${JSON.stringify(lastRecommendation)}
+- Main item: ${categorizedItems.main ? categorizedItems.main.name : 'None'}
+- Beverage: ${categorizedItems.beverage ? categorizedItems.beverage.name : 'None'}
+- Side/Dessert: ${categorizedItems.sideOrDessert ? categorizedItems.sideOrDessert.name : 'None'}
 
-VARIETY RULES:
-- Never repeat main dishes in follow-up requests.
-- Rotate between different drink types.
-- Mix up flavor profiles.
-- Balance meal styles.
-- If the user doesn't like a bundle, suggest a completely different cuisine type.
+User query: "${userQuery}"
 
-EXPLANATION STYLE:
--make sure to use the name of the dishes only in the recommendations.
-- Short and punchy (2-3 sentences).
-- Include context and standout features.
-- Use standard ASCII characters only.
-- NO special characters or quotes that could break JSON.
-- Keep it exciting but JSON-safe.
+Remember: 
+- For recommendations => respond ONLY with valid JSON. 
+- For general chat => respond with text.
 
-IMPORTANT: Your response must be EXACTLY in this format - no additional text, no special characters, just valid JSON:
-{
-    "recommendations": [item_ids],
-    "explanation": "Your explanation here "
-}`;
-        } else {
-            systemPrompt = `
-You are a charismatic Food Recommendation Assistant. You must return ONLY valid JSON with properly escaped strings.
-
-IMPORTANT: All recommended items must come from the same restaurant. Violating this rule will result in rejection of the recommendations.
-BUNDLE COMPOSITION RULES:
-1. Each bundle must contain exactly 3 items total:
-   - 1 main item (pizza, burger, pasta, etc.)
-   - 1 beverage (required)
-   - 1 additional item (dessert/side/appetizer)
-
-CONSTRAINTS:
-- Price: 50-100 AED total.
-- All items from the same restaurant.
-- Excluded: Papa John's, Dunkin' Donuts.
-- Drinks must match weather context.
-- NO REPETITIVE RECOMMENDATIONS.
-- Restrict items to the available menu.
-
-VARIETY RULES:
-- Never repeat main dishes in follow-up requests.
-- Rotate between different drink types.
-- Mix up flavor profiles.
-- Balance meal styles.
-- If the user doesn't like a bundle, suggest a completely different cuisine type.
-
-EXPLANATION STYLE:
-- Short and punchy (2-3 sentences).
-- Include context and standout features.
-- Use standard ASCII characters only.
-- NO special characters or quotes that could break JSON.
-- Keep it exciting but JSON-safe.
-
-IMPORTANT: Your response must be EXACTLY in this format - no additional text, no special characters, just valid JSON:
-{
-    "recommendations": [item_ids],
-    "explanation": "Your explanation here"
-}
-
-Available items: ${JSON.stringify(pizzas)}
-User Query: "${userQuery}"
+### Food Menu:
+${JSON.stringify(pizzas)}
 `;
-        }
 
+        // Build request for the LLM
         const requestBody = {
-            model: 'deepseek-ai/DeepSeek-V3',
+            model: 'deepseek-ai/DeepSeek-V3', // or whichever model
             messages: [
                 { role: 'system', content: systemPrompt },
-                { role: 'user', content: userQuery },
+                { role: 'user', content: userQuery }
             ],
-            max_tokens: null,
-            temperature: 0.3,
-            top_p: 0.7,
+            temperature: 0.7,
+            top_p: 0.9,
             top_k: 50,
         };
 
-        console.log('Request Body Sent to Together AI:', JSON.stringify(requestBody, null, 2));
-
+        // Send to LLM
         const response = await axios.post('https://api.together.xyz/v1/chat/completions', requestBody, {
             headers: {
                 'Authorization': `Bearer ${process.env.TOGETHER_API_KEY}`,
@@ -2736,38 +2712,49 @@ User Query: "${userQuery}"
             },
         });
 
-        const rawContent = response.data.choices[0]?.message?.content || '{}';
-        console.log('Raw Content from Together AI:', rawContent);
+        const rawContent = response.data.choices[0]?.message?.content || '';
+        console.log('Raw LLM Response:', rawContent);
 
-        try {
-            const jsonMatch = rawContent.match(/{[\s\S]*}/);
-            if (!jsonMatch) {
-                throw new Error('Response does not contain valid JSON.');
+        // Step 1: Attempt to find JSON in the LLM response
+        const jsonMatch = rawContent.match(/{[\s\S]*}/);
+
+        if (jsonMatch) {
+            // We found JSON => interpret as a recommendation
+            try {
+                const recommendations = JSON.parse(jsonMatch[0]);
+                
+                // Validate the recommended items are in the menu
+                if (!restrictToMenu(recommendations.recommendations, pizzas)) {
+                    throw new Error('One or more recommended items not in menu.');
+                }
+
+                const fixedItems = validateRecommendations(recommendations.recommendations, pizzas);
+
+                // Overwrite the LLM's recommended IDs with the corrected ones
+                recommendations.recommendations = fixedItems.map(item => item.id);
+
+                // Save last recommendation to the session if desired
+                userSession.lastRecommendation = recommendations.recommendations;
+
+                return res.json(recommendations); // Respond with the JSON
+            } catch (parseOrValidationErr) {
+                // JSON found but invalid or fails validation
+                console.error('JSON parse/validation error:', parseOrValidationErr.message);
+                return res.status(400).json({
+                    error: 'Recommendation JSON invalid or failed validation.',
+                    rawResponse: rawContent
+                });
             }
-        
-            const recommendations = JSON.parse(jsonMatch[0]);
-        
-            if (!restrictToMenu(recommendations.recommendations, pizzas)) {
-                console.error(`Invalid recommendations: ${JSON.stringify(recommendations.recommendations)}`);
-                throw new Error('One or more recommended items are not available in the menu.');
-            }
-        
-            console.log('Parsed Recommendations:', recommendations);
-        
-            const validItems = validateRecommendations(recommendations.recommendations, pizzas);
-        
-            userSession.lastRecommendation = recommendations.recommendations;
-            console.log(`Updated Last Recommendation for User ID (${userId}): ${JSON.stringify(userSession.lastRecommendation, null, 2)}`);
-            res.json(recommendations);
-        } catch (parseError) {
-            console.error('Failed to parse JSON or validate recommendations:', parseError.message, 'Raw Content:', rawContent);
-            res.status(500).json({ error: 'Failed to parse or validate response from Together AI.', rawResponse: rawContent });
+        } else {
+            // No JSON => interpret as general chat text
+            return res.json({ reply: rawContent });
         }
     } catch (error) {
-        console.error('Error Response from Together AI:', error.response?.data || error.message);
-        res.status(error.response?.status || 500).json({ error: error.message });
+        console.error('Error in unified endpoint:', error.response?.data || error.message);
+        return res.status(error.response?.status || 500).json({ error: error.message });
     }
 });
 
+// Start the server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Backend running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
