@@ -20,7 +20,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__1.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__1.png"
   },
   {
       "id": 2,
@@ -29,7 +29,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__2.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__2.png"
   },
   {
       "id": 3,
@@ -38,7 +38,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__3.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__3.png"
   },
   {
       "id": 4,
@@ -47,7 +47,7 @@ const pizzas = [
       "category": "Combo",
       "price": "69.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__4.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__4.png"
   },
   {
       "id": 5,
@@ -56,7 +56,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__5.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__5.png"
   },
   {
       "id": 6,
@@ -65,7 +65,7 @@ const pizzas = [
       "category": "Side",
       "price": "15.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__6.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__6.png"
   },
   {
       "id": 7,
@@ -74,7 +74,7 @@ const pizzas = [
       "category": "Pizza Combo",
       "price": "125.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__7.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__7.png"
   },
   {
       "id": 8,
@@ -83,7 +83,7 @@ const pizzas = [
       "category": "Pizza Combo",
       "price": "89.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__8.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__8.png"
   },
   {
       "id": 9,
@@ -92,7 +92,7 @@ const pizzas = [
       "category": "Pizza Combo",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__9.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__9.png"
   },
   {
       "id": 10,
@@ -101,7 +101,7 @@ const pizzas = [
       "category": "Pizza Combo",
       "price": "119.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__10.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__10.png"
   },
   {
       "id": 11,
@@ -110,7 +110,7 @@ const pizzas = [
       "category": "Pizza Combo",
       "price": "149.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__11.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__11.png"
   },
   {
       "id": 12,
@@ -119,7 +119,7 @@ const pizzas = [
       "category": "Pizza Combo",
       "price": "69.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__12.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__12.png"
   },
   {
       "id": 13,
@@ -128,7 +128,7 @@ const pizzas = [
       "category": "Pizza Combo",
       "price": "99.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__13.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__13.png"
   },
   {
       "id": 14,
@@ -137,7 +137,7 @@ const pizzas = [
       "category": "Pizza Combo",
       "price": "79.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__14.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__14.png"
   },
   {
       "id": 15,
@@ -146,7 +146,7 @@ const pizzas = [
       "category": "Combo",
       "price": "60.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__15.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__15.png"
   },
   {
       "id": 16,
@@ -155,7 +155,7 @@ const pizzas = [
       "category": "Combo",
       "price": "37.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__16.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__16.png"
   },
   {
       "id": 17,
@@ -164,7 +164,7 @@ const pizzas = [
       "category": "Combo",
       "price": "60.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__17.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__17.png"
   },
   {
       "id": 18,
@@ -173,7 +173,7 @@ const pizzas = [
       "category": "Combo",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__18.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__18.png"
   },
   {
       "id": 19,
@@ -182,7 +182,7 @@ const pizzas = [
       "category": "Kids",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__19.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__19.png"
   },
   {
       "id": 20,
@@ -191,7 +191,7 @@ const pizzas = [
       "category": "Kids",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__20.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__20.png"
   },
   {
       "id": 21,
@@ -200,7 +200,7 @@ const pizzas = [
       "category": "Kids",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__21.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__21.png"
   },
   {
       "id": 22,
@@ -209,7 +209,7 @@ const pizzas = [
       "category": "Kids",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__22.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__22.png"
   },
   {
       "id": 23,
@@ -218,7 +218,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "31.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__23.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__23.png"
   },
   {
       "id": 24,
@@ -227,7 +227,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__24.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__24.png"
   },
   {
       "id": 25,
@@ -236,7 +236,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "27.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__25.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__25.png"
   },
   {
       "id": 26,
@@ -245,7 +245,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__26.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__26.png"
   },
   {
       "id": 27,
@@ -254,7 +254,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__27.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__27.png"
   },
   {
       "id": 28,
@@ -263,7 +263,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__28.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__28.png"
   },
   {
       "id": 29,
@@ -272,7 +272,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__29.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__29.png"
   },
   {
       "id": 30,
@@ -281,7 +281,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__30.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__30.png"
   },
   {
       "id": 31,
@@ -290,7 +290,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__31.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__31.png"
   },
   {
       "id": 32,
@@ -299,7 +299,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__32.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__32.png"
   },
   {
       "id": 33,
@@ -308,7 +308,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__33.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__33.png"
   },
   {
       "id": 34,
@@ -317,7 +317,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__34.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__34.png"
   },
   {
       "id": 35,
@@ -326,7 +326,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__35.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__35.png"
   },
   {
       "id": 36,
@@ -335,7 +335,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__36.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__36.png"
   },
   {
       "id": 37,
@@ -344,7 +344,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__37.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__37.png"
   },
   {
       "id": 38,
@@ -353,7 +353,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__38.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__38.png"
   },
   {
       "id": 39,
@@ -362,7 +362,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__39.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__39.png"
   },
   {
       "id": 40,
@@ -371,7 +371,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__40.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__40.png"
   },
   {
       "id": 41,
@@ -380,7 +380,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "31.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__41.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__41.png"
   },
   {
       "id": 42,
@@ -389,7 +389,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "31.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__42.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__42.png"
   },
   {
       "id": 43,
@@ -398,7 +398,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__43.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__43.png"
   },
   {
       "id": 44,
@@ -407,7 +407,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "31.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__44.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__44.png"
   },
   {
       "id": 45,
@@ -416,7 +416,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__45.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__45.png"
   },
   {
       "id": 46,
@@ -425,7 +425,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "31.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__46.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__46.png"
   },
   {
       "id": 47,
@@ -434,7 +434,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__47.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__47.png"
   },
   {
       "id": 48,
@@ -443,7 +443,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__48.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__48.png"
   },
   {
       "id": 49,
@@ -452,7 +452,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__49.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__49.png"
   },
   {
       "id": 50,
@@ -461,7 +461,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__50.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__50.png"
   },
   {
       "id": 51,
@@ -470,7 +470,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__51.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__51.png"
   },
   {
       "id": 52,
@@ -479,7 +479,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__52.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__52.png"
   },
   {
       "id": 53,
@@ -488,7 +488,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__53.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__53.png"
   },
   {
       "id": 54,
@@ -497,7 +497,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__54.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__54.png"
   },
   {
       "id": 55,
@@ -506,7 +506,7 @@ const pizzas = [
       "category": "Vegan Pizza",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__55.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__55.png"
   },
   {
       "id": 56,
@@ -515,7 +515,7 @@ const pizzas = [
       "category": "Pizza",
       "price": "27.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__56.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__56.png"
   },
   {
       "id": 57,
@@ -524,7 +524,7 @@ const pizzas = [
       "category": "Starter",
       "price": "39.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__57.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__57.png"
   },
   {
       "id": 58,
@@ -533,7 +533,7 @@ const pizzas = [
       "category": "Starter",
       "price": "24.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__58.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__58.png"
   },
   {
       "id": 59,
@@ -542,7 +542,7 @@ const pizzas = [
       "category": "Starter",
       "price": "16.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__59.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__59.png"
   },
   {
       "id": 60,
@@ -551,7 +551,7 @@ const pizzas = [
       "category": "Starter",
       "price": "24.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__60.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__60.png"
   },
   {
       "id": 61,
@@ -560,7 +560,7 @@ const pizzas = [
       "category": "Starter",
       "price": "12.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__61.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__61.png"
   },
   {
       "id": 62,
@@ -569,7 +569,7 @@ const pizzas = [
       "category": "Starter",
       "price": "10.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__62.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__62.png"
   },
   {
       "id": 63,
@@ -578,7 +578,7 @@ const pizzas = [
       "category": "Starter",
       "price": "26.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__63.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__63.png"
   },
   {
       "id": 64,
@@ -587,7 +587,7 @@ const pizzas = [
       "category": "Starter",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__64.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__64.png"
   },
   {
       "id": 65,
@@ -596,7 +596,7 @@ const pizzas = [
       "category": "Starter",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__65.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__65.png"
   },
   {
       "id": 66,
@@ -605,7 +605,7 @@ const pizzas = [
       "category": "Side",
       "price": "13.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__66.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__66.png"
   },
   {
       "id": 67,
@@ -614,7 +614,7 @@ const pizzas = [
       "category": "Starter",
       "price": "16.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__67.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__67.png"
   },
   {
       "id": 68,
@@ -623,7 +623,7 @@ const pizzas = [
       "category": "Starter",
       "price": "24.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__68.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__68.png"
   },
   {
       "id": 69,
@@ -632,7 +632,7 @@ const pizzas = [
       "category": "Starter",
       "price": "12.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__69.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__69.png"
   },
   {
       "id": 70,
@@ -641,7 +641,7 @@ const pizzas = [
       "category": "Starter",
       "price": "20.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__70.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__70.png"
   },
   {
       "id": 71,
@@ -650,7 +650,7 @@ const pizzas = [
       "category": "Starter",
       "price": "18.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__71.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__71.png"
   },
   {
       "id": 72,
@@ -659,7 +659,7 @@ const pizzas = [
       "category": "Starter",
       "price": "22.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__72.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__72.png"
   },
   {
       "id": 73,
@@ -668,7 +668,7 @@ const pizzas = [
       "category": "Starter",
       "price": "38.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__73.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__73.png"
   },
   {
       "id": 74,
@@ -677,7 +677,7 @@ const pizzas = [
       "category": "Starter",
       "price": "52.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__74.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__74.png"
   },
   {
       "id": 75,
@@ -686,7 +686,7 @@ const pizzas = [
       "category": "Starter",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__75.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__75.png"
   },
   {
       "id": 76,
@@ -695,7 +695,7 @@ const pizzas = [
       "category": "Starter",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__76.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__76.png"
   },
   {
       "id": 77,
@@ -704,7 +704,7 @@ const pizzas = [
       "category": "Starter",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__77.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__77.png"
   },
   {
       "id": 78,
@@ -713,7 +713,7 @@ const pizzas = [
       "category": "Starter",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__78.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__78.png"
   },
   {
       "id": 79,
@@ -722,7 +722,7 @@ const pizzas = [
       "category": "Starter",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__79.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__79.png"
   },
   {
       "id": 80,
@@ -731,7 +731,7 @@ const pizzas = [
       "category": "Starter",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__80.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__80.png"
   },
   {
       "id": 81,
@@ -740,7 +740,7 @@ const pizzas = [
       "category": "Starter",
       "price": "49.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__81.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__81.png"
   },
   {
       "id": 82,
@@ -749,7 +749,7 @@ const pizzas = [
       "category": "Starter",
       "price": "12.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__82.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__82.png"
   },
   {
       "id": 83,
@@ -758,7 +758,7 @@ const pizzas = [
       "category": "Starter",
       "price": "22.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__83.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__83.png"
   },
   {
       "id": 84,
@@ -767,7 +767,7 @@ const pizzas = [
       "category": "Starter",
       "price": "15.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__84.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__84.png"
   },
   {
       "id": 85,
@@ -776,7 +776,7 @@ const pizzas = [
       "category": "Starter",
       "price": "20.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__85.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__85.png"
   },
   {
       "id": 86,
@@ -785,7 +785,7 @@ const pizzas = [
       "category": "Starter",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__86.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__86.png"
   },
   {
       "id": 87,
@@ -794,7 +794,7 @@ const pizzas = [
       "category": "Starter",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__87.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__87.png"
   },
   {
       "id": 88,
@@ -803,7 +803,7 @@ const pizzas = [
       "category": "Starter",
       "price": "19.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__88.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__88.png"
   },
   {
       "id": 89,
@@ -812,7 +812,7 @@ const pizzas = [
       "category": "Starter",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__89.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__89.png"
   },
   {
       "id": 90,
@@ -821,7 +821,7 @@ const pizzas = [
       "category": "Vegan Side",
       "price": "20.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__90.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__90.png"
   },
   {
       "id": 91,
@@ -830,7 +830,7 @@ const pizzas = [
       "category": "Vegan Side",
       "price": "15.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__91.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__91.png"
   },
   {
       "id": 92,
@@ -839,7 +839,7 @@ const pizzas = [
       "category": "Vegan Side",
       "price": "25.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__92.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__92.png"
   },
   {
       "id": 93,
@@ -848,7 +848,7 @@ const pizzas = [
       "category": "Vegan Starter",
       "price": "30.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__93.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__93.png"
   },
   {
       "id": 94,
@@ -857,7 +857,7 @@ const pizzas = [
       "category": "Vegan Starter",
       "price": "35.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__94.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__94.png"
   },
   {
       "id": 95,
@@ -866,7 +866,7 @@ const pizzas = [
       "category": "Offer",
       "price": "46.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__95.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__95.png"
   },
   {
       "id": 96,
@@ -875,7 +875,7 @@ const pizzas = [
       "category": "Offer",
       "price": "64.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__96.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__96.png"
   },
   {
       "id": 97,
@@ -884,7 +884,7 @@ const pizzas = [
       "category": "Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__97.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__97.png"
   },
   {
       "id": 98,
@@ -893,7 +893,7 @@ const pizzas = [
       "category": "Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__98.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__98.png"
   },
   {
       "id": 99,
@@ -902,7 +902,7 @@ const pizzas = [
       "category": "Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__99.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__99.png"
   },
   {
       "id": 100,
@@ -911,7 +911,7 @@ const pizzas = [
       "category": "Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__100.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__100.png"
   },
   {
       "id": 101,
@@ -920,7 +920,7 @@ const pizzas = [
       "category": "Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__101.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__101.png"
   },
   {
       "id": 102,
@@ -929,7 +929,7 @@ const pizzas = [
       "category": "Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__102.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__102.png"
   },
   {
       "id": 103,
@@ -938,7 +938,7 @@ const pizzas = [
       "category": "Vegan Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__103.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__103.png"
   },
   {
       "id": 104,
@@ -947,7 +947,7 @@ const pizzas = [
       "category": "Vegan Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__104.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__104.png"
   },
   {
       "id": 105,
@@ -956,7 +956,7 @@ const pizzas = [
       "category": "Papadia",
       "price": "29.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__105.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__105.png"
   },
   {
       "id": 106,
@@ -965,7 +965,7 @@ const pizzas = [
       "category": "Pasta",
       "price": "22.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__106.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__106.png"
   },
   {
       "id": 107,
@@ -974,7 +974,7 @@ const pizzas = [
       "category": "Pasta",
       "price": "25.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__107.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__107.png"
   },
   {
       "id": 108,
@@ -983,7 +983,7 @@ const pizzas = [
       "category": "Salad",
       "price": "25.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__108.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__108.png"
   },
   {
       "id": 109,
@@ -992,7 +992,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "9.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__109.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__109.png"
   },
   {
       "id": 110,
@@ -1001,7 +1001,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "9.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__110.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__110.png"
   },
   {
       "id": 111,
@@ -1010,7 +1010,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "15.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__111.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__111.png"
   },
   {
       "id": 112,
@@ -1019,7 +1019,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "15.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__112.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__112.png"
   },
   {
       "id": 113,
@@ -1028,7 +1028,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "6.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__113.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__113.png"
   },
   {
       "id": 114,
@@ -1037,7 +1037,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "6.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__114.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__114.png"
   },
   {
       "id": 115,
@@ -1046,7 +1046,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "6.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__115.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__115.png"
   },
   {
       "id": 116,
@@ -1055,7 +1055,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "6.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__116.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__116.png"
   },
   {
       "id": 117,
@@ -1064,7 +1064,7 @@ const pizzas = [
       "category": "Water",
       "price": "5.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__117.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__117.png"
   },
   {
       "id": 118,
@@ -1073,7 +1073,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "12.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__118.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__118.png"
   },
   {
       "id": 119,
@@ -1082,7 +1082,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "12.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__119.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__119.png"
   },
   {
       "id": 120,
@@ -1091,7 +1091,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "12.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__120.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__120.png"
   },
   {
       "id": 121,
@@ -1100,7 +1100,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "Cold 14.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__121.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__121.png"
   },
   {
       "id": 122,
@@ -1109,7 +1109,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "14.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__122.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__122.png"
   },
   {
       "id": 123,
@@ -1118,7 +1118,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "14.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__123.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__123.png"
   },
   {
       "id": 124,
@@ -1127,7 +1127,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "6.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__124.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__124.png"
   },
   {
       "id": 125,
@@ -1136,7 +1136,7 @@ const pizzas = [
       "category": "Extras",
       "price": "1.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__125.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__125.png"
   },
   {
       "id": 126,
@@ -1145,7 +1145,7 @@ const pizzas = [
       "category": "Extras",
       "price": "3.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__126.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__126.png"
   },
   {
       "id": 127,
@@ -1154,7 +1154,7 @@ const pizzas = [
       "category": "Extras",
       "price": "3.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__127.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__127.png"
   },
   {
       "id": 128,
@@ -1163,7 +1163,7 @@ const pizzas = [
       "category": "Extras",
       "price": "3.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__128.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__128.png"
   },
   {
       "id": 129,
@@ -1172,7 +1172,7 @@ const pizzas = [
       "category": "Extras",
       "price": "3.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__129.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__129.png"
   },
   {
       "id": 130,
@@ -1181,7 +1181,7 @@ const pizzas = [
       "category": "Extras",
       "price": "3.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__130.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__130.png"
   },
   {
       "id": 131,
@@ -1190,7 +1190,7 @@ const pizzas = [
       "category": "Extras",
       "price": "3.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__131.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__131.png"
   },
   {
       "id": 132,
@@ -1199,7 +1199,7 @@ const pizzas = [
       "category": "Extras",
       "price": "1.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__132.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__132.png"
   },
   {
       "id": 133,
@@ -1208,7 +1208,7 @@ const pizzas = [
       "category": "Extras",
       "price": "1.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__133.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__133.png"
   },
   {
       "id": 134,
@@ -1217,7 +1217,7 @@ const pizzas = [
       "category": "Extras",
       "price": "1.00 AED",
       "restaurant": "Papa Jones",
-      "image": "/dunkin_papajones_frontend/papa_jones_images/image__134.png"
+      "image": "/dunkinpapajones_frontend/papa_jones_images/image__134.png"
   },
   {
       "id": 135,
@@ -1226,7 +1226,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "41.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__1.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__1.png"
   },
   {
       "id": 136,
@@ -1235,7 +1235,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "8.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__2.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__2.png"
   },
   {
       "id": 137,
@@ -1244,7 +1244,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "8.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__3.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__3.png"
   },
   {
       "id": 138,
@@ -1253,7 +1253,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "47.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__4.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__4.png"
   },
   {
       "id": 139,
@@ -1262,7 +1262,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "9.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__5.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__5.png"
   },
   {
       "id": 140,
@@ -1271,7 +1271,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "45.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__6.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__6.png"
   },
   {
       "id": 141,
@@ -1280,7 +1280,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "15.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__7.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__7.png"
   },
   {
       "id": 142,
@@ -1289,7 +1289,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "9.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__8.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__8.png"
   },
   {
       "id": 143,
@@ -1298,7 +1298,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "9.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__9.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__9.png"
   },
   {
       "id": 144,
@@ -1307,7 +1307,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "9.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__10.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__10.png"
   },
   {
       "id": 145,
@@ -1316,7 +1316,7 @@ const pizzas = [
       "category": "Beverage",
       "price": "22.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__11.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__11.png"
   },
   {
       "id": 146,
@@ -1325,7 +1325,7 @@ const pizzas = [
       "category": "Dessert",
       "price": "15.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__12.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__12.png"
   },
   {
       "id": 147,
@@ -1334,7 +1334,7 @@ const pizzas = [
       "category": "Hot Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__13.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__13.png"
   },
   {
       "id": 148,
@@ -1343,7 +1343,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__14.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__14.png"
   },
   {
       "id": 149,
@@ -1352,7 +1352,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__15.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__15.png"
   },
   {
       "id": 150,
@@ -1361,7 +1361,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__16.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__16.png"
   },
   {
       "id": 151,
@@ -1370,7 +1370,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "24.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__17.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__17.png"
   },
   {
       "id": 152,
@@ -1379,7 +1379,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "16.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__18.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__18.png"
   },
   {
       "id": 153,
@@ -1388,7 +1388,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__19.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__19.png"
   },
   {
       "id": 154,
@@ -1397,7 +1397,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__20.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__20.png"
   },
   {
       "id": 155,
@@ -1406,7 +1406,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__21.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__21.png"
   },
   {
       "id": 156,
@@ -1415,7 +1415,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__22.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__22.png"
   },
   {
       "id": 157,
@@ -1424,7 +1424,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "22.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__23.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__23.png"
   },
   {
       "id": 158,
@@ -1433,7 +1433,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__24.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__24.png"
   },
   {
       "id": 159,
@@ -1442,7 +1442,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__25.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__25.png"
   },
   {
       "id": 160,
@@ -1451,7 +1451,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__26.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__26.png"
   },
   {
       "id": 161,
@@ -1460,7 +1460,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__27.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__27.png"
   },
   {
       "id": 162,
@@ -1469,7 +1469,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__28.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__28.png"
   },
   {
       "id": 163,
@@ -1478,7 +1478,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "22.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__29.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__29.png"
   },
   {
       "id": 164,
@@ -1487,7 +1487,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__30.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__30.png"
   },
   {
       "id": 165,
@@ -1496,7 +1496,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "22.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__31.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__31.png"
   },
   {
       "id": 166,
@@ -1505,7 +1505,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "22.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__32.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__32.png"
   },
   {
       "id": 167,
@@ -1514,7 +1514,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__33.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__33.png"
   },
   {
       "id": 168,
@@ -1523,7 +1523,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__34.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__34.png"
   },
   {
       "id": 169,
@@ -1532,7 +1532,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__35.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__35.png"
   },
   {
       "id": 170,
@@ -1541,7 +1541,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__36.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__36.png"
   },
   {
       "id": 171,
@@ -1550,7 +1550,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "22.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__37.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__37.png"
   },
   {
       "id": 172,
@@ -1559,7 +1559,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__38.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__38.png"
   },
   {
       "id": 173,
@@ -1568,7 +1568,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__39.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__39.png"
   },
   {
       "id": 174,
@@ -1577,7 +1577,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "22.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__40.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__40.png"
   },
   {
       "id": 175,
@@ -1586,7 +1586,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "52.73 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__41.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__41.png"
   },
   {
       "id": 176,
@@ -1595,7 +1595,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "52.73 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__42.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__42.png"
   },
   {
       "id": 177,
@@ -1604,7 +1604,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "52.73 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__43.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__43.png"
   },
   {
       "id": 178,
@@ -1613,7 +1613,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "28.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__44.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__44.png"
   },
   {
       "id": 179,
@@ -1622,7 +1622,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "28.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__45.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__45.png"
   },
   {
       "id": 180,
@@ -1631,7 +1631,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "28.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__46.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__46.png"
   },
   {
       "id": 181,
@@ -1640,7 +1640,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "25.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__47.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__47.png"
   },
   {
       "id": 182,
@@ -1649,7 +1649,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__48.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__48.png"
   },
   {
       "id": 183,
@@ -1658,7 +1658,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "19.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__49.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__49.png"
   },
   {
       "id": 184,
@@ -1667,7 +1667,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__50.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__50.png"
   },
   {
       "id": 185,
@@ -1676,7 +1676,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "21.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__51.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__51.png"
   },
   {
       "id": 186,
@@ -1685,7 +1685,7 @@ const pizzas = [
       "category": "Meal Deal",
       "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__52.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__52.png"
   },
   {
       "id": 187,
@@ -1694,7 +1694,7 @@ const pizzas = [
       "category": "Gifting Box",
       "price": "58.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__53.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__53.png"
   },
   {
       "id": 188,
@@ -1703,7 +1703,7 @@ const pizzas = [
       "category": "Gifting Box",
       "price": "58.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__54.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__54.png"
   },
   {
       "id": 189,
@@ -1712,7 +1712,7 @@ const pizzas = [
       "category": "Gifting Box",
       "price": "58.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__55.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__55.png"
   },
   {
       "id": 190,
@@ -1721,7 +1721,7 @@ const pizzas = [
       "category": "Special Offers",
       "price": "99.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__56.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__56.png"
   },
   {
       "id": 191,
@@ -1730,7 +1730,7 @@ const pizzas = [
       "category": "Special Offers",
       "price": "56.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__57.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__57.png"
   },
   {
       "id": 192,
@@ -1739,7 +1739,7 @@ const pizzas = [
       "category": "Special Offers",
       "price": "35.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__58.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__58.png"
   },
   {
       "id": 193,
@@ -1748,7 +1748,7 @@ const pizzas = [
       "category": "Special Offers",
       "price": "56.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__59.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__59.png"
   },
   {
       "id": 194,
@@ -1757,7 +1757,7 @@ const pizzas = [
       "category": "Special Offers",
       "price": "35.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__60.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__60.png"
   },
   {
       "id": 195,
@@ -1766,7 +1766,7 @@ const pizzas = [
       "category": "Special Offers",
       "price": "19.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__61.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__61.png"
   },
   {
       "id": 196,
@@ -1775,7 +1775,7 @@ const pizzas = [
       "category": "Dessert Bundles",
       "price": "52.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__62.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__62.png"
   },
   {
       "id": 197,
@@ -1784,7 +1784,7 @@ const pizzas = [
       "category": "Dessert Bundles",
       "price": "59.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__63.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__63.png"
   },
   {
       "id": 198,
@@ -1793,7 +1793,7 @@ const pizzas = [
       "category": "Dessert Bundles",
       "price": "71.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__64.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__64.png"
   },
   {
       "id": 199,
@@ -1802,7 +1802,7 @@ const pizzas = [
       "category": "Dessert Bundles",
       "price": "32.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__65.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__65.png"
   },
   {
       "id": 200,
@@ -1811,7 +1811,7 @@ const pizzas = [
       "category": "Dessert Bundles",
       "price": "99.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__66.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__66.png"
   },
   {
       "id": 201,
@@ -1820,7 +1820,7 @@ const pizzas = [
       "category": "Combo",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__67.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__67.png"
   },
   {
       "id": 202,
@@ -1829,7 +1829,7 @@ const pizzas = [
       "category": "Dessert Snack",
       "price": "12.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__68.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__68.png"
   },
   {
       "id": 203,
@@ -1838,7 +1838,7 @@ const pizzas = [
       "category": "Dessert Snack",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__69.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__69.png"
   },
   {
       "id": 204,
@@ -1847,7 +1847,7 @@ const pizzas = [
       "category": "Hot Beverage",
       "price": "13.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__70.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__70.png"
   },
   {
       "id": 205,
@@ -1856,7 +1856,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "16.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__71.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__71.png"
   },
   {
       "id": 206,
@@ -1865,7 +1865,7 @@ const pizzas = [
       "category": "Hot Beverage",
       "price": "16.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__72.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__72.png"
   },
   {
       "id": 207,
@@ -1874,7 +1874,7 @@ const pizzas = [
       "category": "Hot Beverage",
       "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__73.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__73.png"
   },
   {
       "id": 208,
@@ -1883,7 +1883,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "18.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__74.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__74.png"
   },
   {
       "id": 209,
@@ -1892,7 +1892,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__75.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__75.png"
   },
   {
       "id": 210,
@@ -1901,7 +1901,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__76.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__76.png"
   },
   {
       "id": 211,
@@ -1910,7 +1910,7 @@ const pizzas = [
       "category": "Hot Beverage",
       "price": "23.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__77.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__77.png"
   },
   {
       "id": 212,
@@ -1919,7 +1919,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__78.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__78.png"
   },
   {
       "id": 213,
@@ -1928,7 +1928,7 @@ const pizzas = [
       "category": "Hot Beverage",
       "price": "11.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__79.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__79.png"
   },
   {
       "id": 214,
@@ -1937,7 +1937,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__80.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__80.png"
   },
   {
       "id": 215,
@@ -1946,7 +1946,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__81.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__81.png"
   },
   {
       "id": 216,
@@ -1955,7 +1955,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontenddunkin_dubai_images/image__82.png"
+      "image": "/dunkinpapajones_frontenddunkin_dubai_images/image__82.png"
   },
   {
       "id": 217,
@@ -1964,7 +1964,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__83.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__83.png"
   },
   {
       "id": 218,
@@ -1973,7 +1973,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__84.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__84.png"
   },
   {
       "id": 219,
@@ -1982,7 +1982,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__85.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__85.png"
   },
   {
       "id": 220,
@@ -1991,7 +1991,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__86.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__86.png"
   },
   {
       "id": 221,
@@ -2000,7 +2000,7 @@ const pizzas = [
       "category": "Cold Beverage",
       "price": "20.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__87.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__87.png"
   },
   {
       "id": 222,
@@ -2009,7 +2009,7 @@ const pizzas = [
       "category": "Donut",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__88.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__88.png"
   },
   {
       "id": 223,
@@ -2018,7 +2018,7 @@ const pizzas = [
       "category": "Donut",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__89.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__89.png"
   },
   {
       "id": 224,
@@ -2027,7 +2027,7 @@ const pizzas = [
       "category": "Donut",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__90.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__90.png"
   },
   {
       "id": 225,
@@ -2036,7 +2036,7 @@ const pizzas = [
       "category": "Donut",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__91.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__91.png"
   },
   {
       "id": 226,
@@ -2045,7 +2045,7 @@ const pizzas = [
       "category": "Donut",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__92.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__92.png"
   },
   {
       "id": 227,
@@ -2054,7 +2054,7 @@ const pizzas = [
       "category": "Donut",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__93.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__93.png"
   },
   {
       "id": 228,
@@ -2063,7 +2063,7 @@ const pizzas = [
       "category": "Pastry",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__94.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__94.png"
   },
   {
       "id": 229,
@@ -2072,7 +2072,7 @@ const pizzas = [
       "category": "Donut",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__95.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__95.png"
   },
   {
       "id": 230,
@@ -2081,7 +2081,7 @@ const pizzas = [
       "category": "Donut",
       "price": "7.00 AED",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__96.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__96.png"
   },
   {
       "id": 231,
@@ -2090,7 +2090,7 @@ const pizzas = [
       "category": null,
       "price": "AED 8",
       "restaurant": "Dunkin Dubai",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__97.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__97.png"
   },
   {
       "id": 232,
@@ -2099,7 +2099,7 @@ const pizzas = [
       "category": "Pastry",
       "price": "AED 7",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__98.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__98.png"
   },
   {
       "id": 233,
@@ -2108,7 +2108,7 @@ const pizzas = [
       "category": "Donut",
       "price": "AED 7",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__99.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__99.png"
   },
   {
       "id": 234,
@@ -2117,7 +2117,7 @@ const pizzas = [
       "category": "Donut",
       "price": "AED 8",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__100.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__100.png"
   },
   {
       "id": 235,
@@ -2126,7 +2126,7 @@ const pizzas = [
       "category": "Donut",
       "price": "AED 8",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__101.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__101.png"
   },
   {
       "id": 236,
@@ -2135,7 +2135,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 23",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__102.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__102.png"
   },
   {
       "id": 237,
@@ -2144,7 +2144,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 23",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__103.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__103.png"
   },
   {
       "id": 238,
@@ -2153,7 +2153,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 14",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__104.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__104.png"
   },
   {
       "id": 239,
@@ -2162,7 +2162,7 @@ const pizzas = [
       "category": "Bagel",
       "price": "AED 18",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__105.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__105.png"
   },
   {
       "id": 240,
@@ -2171,7 +2171,7 @@ const pizzas = [
       "category": "Bagel",
       "price": "AED 14",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__106.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__106.png"
   },
   {
       "id": 241,
@@ -2180,7 +2180,7 @@ const pizzas = [
       "category": "Pastry",
       "price": "AED 16",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__107.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__107.png"
   },
   {
       "id": 242,
@@ -2189,7 +2189,7 @@ const pizzas = [
       "category": "Pastry",
       "price": "AED 18",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__108.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__108.png"
   },
   {
       "id": 243,
@@ -2198,7 +2198,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 21",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__109.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__109.png"
   },
   {
       "id": 244,
@@ -2207,7 +2207,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 18",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__110.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__110.png"
   },
   {
       "id": 245,
@@ -2216,7 +2216,7 @@ const pizzas = [
       "category": "Pastry",
       "price": "AED 14",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__111.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__111.png"
   },
   {
       "id": 246,
@@ -2225,7 +2225,7 @@ const pizzas = [
       "category": "Pastry",
       "price": "AED 18",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__112.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__112.png"
   },
   {
       "id": 247,
@@ -2234,7 +2234,7 @@ const pizzas = [
       "category": "Pastry",
       "price": "AED 11",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__113.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__113.png"
   },
   {
       "id": 248,
@@ -2243,7 +2243,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 24",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__114.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__114.png"
   },
   {
       "id": 249,
@@ -2252,7 +2252,7 @@ const pizzas = [
       "category": "Muffin",
       "price": "AED 24",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__115.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__115.png"
   },
   {
       "id": 250,
@@ -2261,7 +2261,7 @@ const pizzas = [
       "category": "Toast",
       "price": "AED 24",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__116.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__116.png"
   },
   {
       "id": 251,
@@ -2270,7 +2270,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 24",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__117.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__117.png"
   },
   {
       "id": 252,
@@ -2279,7 +2279,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 24",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__118.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__118.png"
   },
   {
       "id": 253,
@@ -2288,7 +2288,7 @@ const pizzas = [
       "category": "Sandwich",
       "price": "AED 24",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__119.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__119.png"
   },
   {
       "id": 254,
@@ -2297,7 +2297,7 @@ const pizzas = [
       "category": "Bakery",
       "price": "AED 10",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__120.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__120.png"
   },
   {
       "id": 255,
@@ -2306,7 +2306,7 @@ const pizzas = [
       "category": "Muffin",
       "price": "AED 13",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__121.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__121.png"
   },
   {
       "id": 256,
@@ -2315,7 +2315,7 @@ const pizzas = [
       "category": "Muffin",
       "price": "AED 13",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__122.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__122.png"
   },
   {
       "id": 257,
@@ -2324,7 +2324,7 @@ const pizzas = [
       "category": "Beverage Capsules",
       "price": "AED 21.50",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__123.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__123.png"
   },
   {
       "id": 258,
@@ -2333,7 +2333,7 @@ const pizzas = [
       "category": "Beverage Capsules",
       "price": "AED 21.50",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__124.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__124.png"
   },
   {
       "id": 259,
@@ -2342,7 +2342,7 @@ const pizzas = [
       "category": "Beverage Capsules",
       "price": "AED 21.50",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__125.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__125.png"
   },
   {
       "id": 260,
@@ -2351,7 +2351,7 @@ const pizzas = [
       "category": "Beverages Capsules",
       "price": "AED 51",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__126.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__126.png"
   },
   {
       "id": 261,
@@ -2360,7 +2360,7 @@ const pizzas = [
       "category": "Beverages Capsules",
       "price": "AED 51",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__127.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__127.png"
   },
   {
       "id": 262,
@@ -2369,7 +2369,7 @@ const pizzas = [
       "category": "Beverages Capsules",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__128.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__128.png"
   },
   {
       "id": 263,
@@ -2378,7 +2378,7 @@ const pizzas = [
       "category": "Beverages Capsules",
       "price": "AED 51",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__129.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__129.png"
   },
   {
       "id": 264,
@@ -2387,7 +2387,7 @@ const pizzas = [
       "category": "Water",
       "price": "AED 6",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__130.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__130.png"
   },
   {
       "id": 265,
@@ -2396,7 +2396,7 @@ const pizzas = [
       "category": "Beverages",
       "price": "AED 8",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__131.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__131.png"
   },
   {
       "id": 266,
@@ -2405,7 +2405,7 @@ const pizzas = [
       "category": "Cold Beverages",
       "price": "AED 13",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__132.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__132.png"
   },
   {
       "id": 267,
@@ -2414,7 +2414,7 @@ const pizzas = [
       "category": "Cold Beverages",
       "price": "AED 7",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__133.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__133.png"
   },
   {
       "id": 268,
@@ -2423,7 +2423,7 @@ const pizzas = [
       "category": "Cold Beverages",
       "price": "AED 7",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__134.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__134.png"
   },
   {
       "id": 269,
@@ -2432,7 +2432,7 @@ const pizzas = [
       "category": "Cold Beverages",
       "price": "AED 7",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__135.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__135.png"
   },
   {
       "id": 270,
@@ -2441,7 +2441,7 @@ const pizzas = [
       "category": "Cold Beverages",
       "price": "AED 7",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__136.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__136.png"
   },
   {
       "id": 271,
@@ -2450,7 +2450,7 @@ const pizzas = [
       "category": "Cold Beverages",
       "price": "AED 17",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__137.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__137.png"
   },
   {
       "id": 272,
@@ -2459,7 +2459,7 @@ const pizzas = [
       "category": "Cold Beverages",
       "price": "AED 17",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__138.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__138.png"
   },
   {
       "id": 273,
@@ -2468,7 +2468,7 @@ const pizzas = [
       "category": "Cold Beverages",
       "price": "AED 17",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__139.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__139.png"
   },
   {
       "id": 274,
@@ -2477,7 +2477,7 @@ const pizzas = [
       "category": "Bottle Merchandise",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__140.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__140.png"
   },
   {
       "id": 275,
@@ -2486,7 +2486,7 @@ const pizzas = [
       "category": "Bottle Merchandise",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__141.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__141.png"
   },
   {
       "id": 276,
@@ -2495,7 +2495,7 @@ const pizzas = [
       "category": "Bottle Merchandise",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__142.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__142.png"
   },
   {
       "id": 277,
@@ -2504,7 +2504,7 @@ const pizzas = [
       "category": "Bottle Merchandise",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__143.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__143.png"
   },
   {
       "id": 278,
@@ -2513,7 +2513,7 @@ const pizzas = [
       "category": "Bottle Merchandise",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__144.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__144.png"
   },
   {
       "id": 279,
@@ -2522,7 +2522,7 @@ const pizzas = [
       "category": "Bottle Merchandise",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__145.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__145.png"
   },
   {
       "id": 280,
@@ -2531,7 +2531,7 @@ const pizzas = [
       "category": "Bottle Merchandise",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__146.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__146.png"
   },
   {
       "id": 281,
@@ -2540,7 +2540,7 @@ const pizzas = [
       "category": "Bottle Merchandise",
       "price": "AED 61",
       "restaurant": "Dunkin Donut",
-      "image": "/dunkin_papajones_frontend/dunkin_dubai_images/image__143.png"
+      "image": "/dunkinpapajones_frontend/dunkin_dubai_images/image__143.png"
   },
 ]
 
